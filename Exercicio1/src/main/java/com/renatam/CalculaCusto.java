@@ -1,7 +1,5 @@
 package com.renatam;
 
-import java.text.SimpleDateFormat;
-
 public class CalculaCusto {
 
     private double valor;
@@ -14,7 +12,7 @@ public class CalculaCusto {
         return valor;
     }
 
-    public void setValor(float valor) {
+    public void setValor(double valor) {
         this.valor = valor;
     }
 
